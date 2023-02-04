@@ -6,7 +6,7 @@ jobs:
     steps:
     - name: load code
     - uses: actions/checkout@v
-    - name: build
+    - name: build project
     - uses: EasyDesk/action-dotnet-build@v1
       with:
           # (Optional) Additional arguments for dotnet build.
