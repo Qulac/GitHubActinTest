@@ -4,15 +4,23 @@ jobs:
   print:
     runs-on: windows-2019
     steps:
+<<<<<<< HEAD
      - uses: actions/checkout@v3
      - uses: EasyDesk/action-dotnet-build@v1
        with:
+=======
+    - name: load code
+    - uses: actions/checkout@v
+    - name: build project
+    - uses: EasyDesk/action-dotnet-build@v1
+      with:
+>>>>>>> da1d1af67431abe285324cbb3782546f25682201
           # (Optional) Additional arguments for dotnet build.
-          build-args: -v normal
+           build-args: -v normal
 
           # (Optional) Build configuration, defaults to 'Release'
           # If the version starts with the 'v' prefix, it will be removed to conform to the requirements of dotnet pack.
-          build-configuration: Release
+           build-configuration: Release
 
           # (Optional) The path of the project to build; if omitted, the whole solution is built
-          path: ./GitHubActinTest.sln  
+           path: ./GitHubActinTest.sln   
