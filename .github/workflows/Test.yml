@@ -15,8 +15,12 @@ jobs:
         path: ./GitHubActinTest/bin/Release
      - uses: potatoqualitee/mssqlsuite@v1.7
        with:
-          install: sqlengine, sqlpackage
-     - name: Run sqlclient
-       run: sqlcmd -S localhost -U sa -P dbatools.I0 -d tempdb -Q "SELECT @@version;"
+          install: sqlengine, sqlclient, sqlpackage
+          version: 2017
+          sa-password: c0MplicatedP@ssword
+          show-log: true
+          collation: Latin1_General_BIN
+     - name: Run sqlcmd
+       run: sqlcmd -S localhost -U sa -P c0MplicatedP@ssword -d tempdb -Q "SELECT @@version;"
 
      
