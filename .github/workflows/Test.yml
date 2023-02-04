@@ -8,5 +8,5 @@ jobs:
      - name: build
        run: dotnet build
     - name: test
-      run: ./UnitTestProject/bin/Debug/UnitTestProject.dll
+      run: dotnet test ./UnitTestProject/bin/Debug/UnitTestProject.dll
       
