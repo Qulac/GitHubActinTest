@@ -5,4 +5,4 @@ jobs:
     runs-on: windows-2019
     steps:
     - name: Print Dir
-      run: notepad.exe
+      run: dir
