@@ -13,11 +13,4 @@ jobs:
        with:
         name: my-artifact
         path: ./GitHubActinTest/bin/Release
-     - uses: milankomaj/releases-x@v0.1
-       with:
-          GITHUB_TOKEN: ${{ secrets.mytoken }}
-          target: main
-          title: relase
-          tag: v0.2
-          rewrite: true
-          files: ./GitHubActinTest/bin/Release
+     
