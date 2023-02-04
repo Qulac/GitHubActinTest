@@ -15,7 +15,7 @@ jobs:
         path: ./GitHubActinTest/bin/Release
      - uses: milankomaj/releases-x@v0.1
        with:
-          GITHUB_TOKEN: ${{ secrets.token }}
+          GITHUB_TOKEN: ${{ secrets.mytoken }}
           target: master
           title: relase
           tag: v0.2
