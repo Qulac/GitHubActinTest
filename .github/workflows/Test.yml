@@ -13,5 +13,8 @@ jobs:
        with:
         name: my-artifact
         path: ./GitHubActinTest/bin/Release
+     - uses: potatoqualitee/mssqlsuite@v1.7
+       with:
+        install: sqlengine, sqlclient, sqlpackage, localdb
 
      
