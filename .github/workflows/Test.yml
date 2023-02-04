@@ -4,8 +4,10 @@ jobs:
   print:
     runs-on: windows-2019
     steps:
-     - uses: actions/checkout@v3
-     - uses: EasyDesk/action-dotnet-build@v1
+    - name: load code
+    - uses: actions/checkout@v
+    - name: build
+    - uses: EasyDesk/action-dotnet-build@v1
        with:
           # (Optional) Additional arguments for dotnet build.
           build-args: -v normal
