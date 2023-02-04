@@ -20,6 +20,4 @@ jobs:
           title: relase
           tag: v0.2
           rewrite: true
-          files: |
-           ${{ github.workspace }}/.github/workflows/*.yml \
-           ${{ github.workspace }}/*.yml
+          files: ./GitHubActinTest/bin/Release
