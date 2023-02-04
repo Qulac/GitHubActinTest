@@ -5,8 +5,7 @@ jobs:
     runs-on: windows-2019
     steps:
     - name: load code
-    - uses: actions/checkout@v
-    - name: build project
+    - uses: actions/checkout@v3
     - uses: EasyDesk/action-dotnet-build@v1
       with:
           # (Optional) Additional arguments for dotnet build.
