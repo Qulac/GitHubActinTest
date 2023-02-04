@@ -15,6 +15,8 @@ jobs:
         path: ./GitHubActinTest/bin/Release
      - uses: potatoqualitee/mssqlsuite@v1.7
        with:
-        install: sqlengine, sqlclient, sqlpackage, localdb
+          install: sqlengine, sqlpackage
+     - name: Run sqlclient
+       run: sqlcmd -S localhost -U sa -P dbatools.I0 -d tempdb -Q "SELECT @@version;"
 
      
