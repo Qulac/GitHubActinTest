@@ -1,0 +1,8 @@
+C:\Users\Программист\source\repos\GitHubActinTest\GitHubActinTest\bin\Debug\GitHubActinTest.exe.config
+C:\Users\Программист\source\repos\GitHubActinTest\GitHubActinTest\bin\Debug\GitHubActinTest.exe
+C:\Users\Программист\source\repos\GitHubActinTest\GitHubActinTest\bin\Debug\GitHubActinTest.pdb
+C:\Users\Программист\source\repos\GitHubActinTest\GitHubActinTest\obj\Debug\GitHubActinTest.csproj.AssemblyReference.cache
+C:\Users\Программист\source\repos\GitHubActinTest\GitHubActinTest\obj\Debug\GitHubActinTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\Программист\source\repos\GitHubActinTest\GitHubActinTest\obj\Debug\GitHubActinTest.csproj.CoreCompileInputs.cache
+C:\Users\Программист\source\repos\GitHubActinTest\GitHubActinTest\obj\Debug\GitHubActinTest.exe
+C:\Users\Программист\source\repos\GitHubActinTest\GitHubActinTest\obj\Debug\GitHubActinTest.pdb
