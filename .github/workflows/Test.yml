@@ -9,8 +9,8 @@ jobs:
        run: dotnet build --configuration Release
      - name: test
        run: dotnet test ./UnitTestProject/bin/Release/UnitTestProject.dll
-     - uses: actions/upload-artifact@v3
-       with:
-        name: my-artifact
-        path: ./GitHubActinTest/bin/Release
+     #- uses: actions/upload-artifact@v3
+      # with:
+       # name: my-artifact
+        #path: ./GitHubActinTest/bin/Release
       
