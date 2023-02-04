@@ -4,8 +4,11 @@ jobs:
   print:
     runs-on: windows-2019
     steps:
-    - uses: EasyDesk/action-dotnet-build@v1
-      with:
+     - name: load code
+     - uses: actions/checkout@v3
+     - name: build
+     - uses: EasyDesk/action-dotnet-build@v1
+       with:
           # (Optional) Additional arguments for dotnet build.
           build-args: -v normal
 
@@ -14,4 +17,4 @@ jobs:
           build-configuration: Release
 
           # (Optional) The path of the project to build; if omitted, the whole solution is built
-          path: GitHubActinTest.sln
+          path: ./GitHubActinTest.sln
