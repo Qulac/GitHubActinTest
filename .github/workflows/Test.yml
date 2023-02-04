@@ -16,5 +16,5 @@ jobs:
      - uses: ncipollo/release-action@v1
        with:
         artifacts: "release.tar.gz,foo/*.txt"
-        bodyFile: ./GitHubActinTest/bin/Release
+        bodyFile: my-artifact.zip
      
