@@ -6,7 +6,7 @@ jobs:
     steps:
      - uses: actions/checkout@v3
      - name: build
-       run: dotnet build
+       run: dotnet build --configuration Release
      - name: test
-       run: dotnet test ./UnitTestProject/bin/Debug/UnitTestProject.dll
+       run: dotnet test ./UnitTestProject/bin/Release/UnitTestProject.dll
       
