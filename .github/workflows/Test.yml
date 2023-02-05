@@ -8,7 +8,7 @@ jobs:
      - name: build
        run: dotnet build --configuration Release
      - name: test
-       run: dotnet test ./UnitTestProject/bin/Release/UnitTestProject.dll
+       run: dotnet test --no-restore --verbosity normal
      - uses: actions/upload-artifact@v3
        with:
         name: my-artifact
